@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+
+.header {
+    position: relative;
+}
+
+.header_slider {
+    overflow: hidden;
+}
+
+.header_slider--image {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header_nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+
+.header_navigation {
+    display: flex;
+    padding-top: 44px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+
+}
+
+.header_navigation--logo {
+    max-width: 175px;
+    display: flex;
+    font-weight: 300;
+
+
+}
+
+.header_navigation--logo span {
+    color: #fff;
+    text-shadow: 1px 1px 3.15px black;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 36px;
+    display: block;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.header_navigation--logo span i {
+    color: #ffea00;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: uppercase;
+    font-style: normal;
+    padding-left: 10px;
+}
+
+.header_navigation_link {
+
+    font-family: 'Roboto', sans-serif;
+    right: 90px;
+    position: absolute;
+
+}
+
+.header_navigation_link-btn {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.nav-line {
+    display: flex;
+    border-left: 2px solid #fff;
+
+    height: 32px;
+
+}
+
+.nav_text {
+    display: flex;
+    margin: 0 20px 0 20px;
+    font-size: 28px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #001111;
+    flex-wrap: wrap;
+}
+
+.nav_text:hover {
+    color: #ffea00;
+}
+
+.call {
+    position: absolute;
+    right: 0;
+}
+
+.header_navigation_link-call {
+    width: 200px;
+    border-radius: 23px;
+    border: 0;
+    position: relative;
+    top: 28px;
+    left: 0;
+    padding: 14px 22px;
+    color: #f9bf3a;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.wrapper {
+    position: relative;
+    top: 47px;
+
+}
+
+.wrapper_min {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+
+.wrapper_min_text {
+    max-width: 830px;
+    padding-left: 41px;
+    padding-right: 10px;
+    text-align: justify;
+    word-spacing: -1px;
+
+}
+
+.wrapper_min_text--position {
+    text-align: start;
+    max-width: 830px;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 77px;
+    margin: -3px 20px 0px 0px;
+
+
+}
+
+.wrapper_min_text--position h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+#production {
+    text-transform: uppercase;
+}
+
+.wrapper_min_text .text-info {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #222222;
+}
+
+
+.paragraph {
+    padding-top: 30px;
+}
+
+.yellow {
+    padding-top: 20px;
+}
+
+.yellow .yelow-line {
+    position: absolute;
+    height: 4px;
+    background-color: #ffea00;
+    right: 291px;
+    width: 10000000px;
+}
+
+.contacts {
+    display: flex;
+    position: absolute;
+    /* padding-left: 996px; */
+    right: 0px;
+    top: 0;
+    line-height: 2;
+    width: 293px;
+
+}
+
+.contacts h1 {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 26px;
+    padding-top: 89px;
+    padding-left: 29px;
+
+}
+
+.contacts .back {
+    background-color: #f5f5f5;
+    padding-right: 4px;
+    margin-top: -47px;
+    width: 289px;
+    height: 337px;
+
+
+}
+
+.otst {
+    padding-left: 29px;
+
+}
+
+.otst a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.wrapper_min_text--adress {
+    position: relative;
+    text-align: start;
+
+}
+
+.wrapper_min_text--adress .yelow-line {
+    position: absolute;
+    height: 4px;
+    background-color: #ffea00;
+    right: 593px;
+    width: 10000000px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+
+}
+
+
+.wrapper_min_text--adress h1 {
+
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    text-transform: uppercase;
+    max-width: 830px;
+    padding-top: 55px;
+    position: relative;
+}
+
+#marker {
+    color: #ffea00;
+    ;
+}
+
+.add {
+    height: 100px;
+    padding-top: 69px;
+    margin-left: 1px;
+}
+
+.cop-r {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 37px;
+    padding-bottom: 35px;
+    color: #777777;
+}
