@@ -1,0 +1,264 @@
+/*
+Контакты не наплывают на текст.
+Контакты теперь внизу
+*/
+@media screen and (max-width:1200px) {
+
+    .wrapper_min_text--adress {
+        padding-bottom: 30px;
+    }
+
+    .contacts {
+        display: flex;
+        top: auto;
+        width: 100%;
+        flex: 1 0 auto;
+    }
+
+    .contacts .back {
+        display: flex;
+        flex-flow: column;
+        background-color: #f5f5f5;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        height: 150px;
+
+    }
+
+    .contacts h1 {
+        padding: 0;
+    }
+
+    .otst {
+        padding: 0;
+    }
+
+    .footer-map {
+        position: relative;
+        top: 154px;
+    }
+}
+
+/*
+Титульный текст не налазит друг на друга.
+Производство и адрес теперь в колонкаx.
+Шрифт заголовков и основного текста меньше.
+*/
+@media screen and (max-width:900px) {
+    .header_slider {
+        display: none;
+    }
+
+    .header_nav {
+        position: relative;
+        background-image: url("../img/logo-bg2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 222px;
+    }
+
+    .nav_text {
+        color: #fff;
+    }
+
+    .header_nav .header_navigation--logo span i {
+        display: block;
+        margin: 0;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .header_navigation_link {
+        right: 15px;
+        padding: 0;
+    }
+
+    .header_navigation_link-btn {
+        display: block;
+        padding-left: 40px;
+    }
+
+    .header_navigation_link-call {
+        width: 146px;
+        left: -38px;
+    }
+
+    .nav-line {
+        height: auto;
+        border-left: none;
+        display: flex;
+        margin: 10px 20px;
+        border-bottom: 2.5px solid #ffea00;
+    }
+
+    .wrapper_min_text--position {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+
+    .yellow .yelow-line {
+        right: 0;
+    }
+
+    .wrapper_min_text--adress .yelow-line {
+        top: auto;
+        right: 20px;
+    }
+
+    .wrapper_min_text--position {
+        padding-bottom: 20px;
+    }
+
+    .wrapper_min_text--position h1 {
+        font-size: 24px;
+    }
+
+    .wrapper_min_text .text-info {
+        font-size: 14px;
+        padding-right: 20px;
+        line-height: 26px;
+    }
+
+    .wrapper_min_text--adress h1 {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+
+    .add {
+        font-size: 14px;
+        padding-top: 50px;
+    }
+
+    .contacts .back h1 {
+        font-size: 24px;
+    }
+
+    .otst {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .cop-r {
+        font-size: 11px;
+    }
+
+    /*
+    Текст еще меньше
+    Кнопки смещены в низ под титул
+*/
+    @media screen and (max-width:540px) {
+        .wrapper {
+            top: 30px;
+        }
+
+        .header_navigation {
+            padding-top: 30px;
+        }
+
+        .header_nav .header_navigation {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .header_navigation--logo {
+            position: relative;
+            display: flex;
+            display: flex;
+        }
+
+        .header_navigation--logo span {
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .header_navigation_link {
+            display: flex;
+            left: 0;
+            bottom: 10px;
+            padding-left: 10px;
+        }
+
+        .call {
+            right: 0;
+            padding-left: 0;
+        }
+
+        .header_navigation_link-call {
+            top: 15px;
+            left: 0;
+        }
+
+        .header_navigation_link-btn {
+            padding-left: 0;
+        }
+
+        .wrapper_min_text--position h1 {
+            font-size: 20px;
+        }
+
+        .wrapper_min_text .text-info {
+            font-size: 12px;
+            line-height: 26px;
+        }
+
+        .wrapper_min_text--adress h1 {
+            font-size: 18px;
+        }
+
+        .add {
+            font-size: 12px;
+        }
+
+        .contacts .back h1 {
+            font-size: 18px;
+        }
+
+        .otst {
+            font-size: 12px;
+            line-height: 22px;
+        }
+
+        .cop-r {
+            font-size: 8px;
+        }
+    }
+
+    /*    Весь титульный текст в одну колонку*/
+    @media screen and (max-width:460px) {
+        .header_nav {
+            height: 300px;
+        }
+
+        .header_navigation--logo {
+            height: 150px;
+        }
+
+        .header_navigation_link {
+            bottom: 100px;
+            left: auto;
+            right: auto;
+            padding-left: 0;
+
+        }
+
+        .header_navigation_link-btn {
+            padding-left: 17px;
+        }
+
+        .header_navigation_link-call {
+            left: -37px;
+            top: 100px;
+        }
+
+
+        .header_navigation--logo span {
+            text-align: center;
+        }
+
+        .wrapper {
+            top: 20px;
+        }
+    }
